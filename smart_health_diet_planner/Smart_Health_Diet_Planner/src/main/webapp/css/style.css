@@ -1,0 +1,13 @@
+body { font-family: Arial, Helvetica, sans-serif; margin:0; background:#f2f6fb; color:#222; }
+.centered { display:flex; align-items:center; justify-content:center; min-height:90vh; }
+.card { background:#fff; padding:24px; border-radius:10px; box-shadow: 0 6px 18px rgba(0,0,0,0.08); width:360px; }
+.card h2 { margin-top:0; margin-bottom:12px; }
+label { display:block; margin-top:10px; font-size:14px; color:#444; }
+input { width:100%; padding:10px; margin-top:6px; border:1px solid #ddd; border-radius:6px; box-sizing:border-box; }
+button, .btn { display:inline-block; margin-top:14px; padding:10px 16px; background:#2b7cff; color:#fff; border:none; border-radius:8px; cursor:pointer; text-decoration:none; }
+button:hover, .btn:hover { opacity:0.95; }
+.topbar { background:#fff; padding:12px 20px; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #eee; }
+.container { padding:24px; display:flex; justify-content:center; }
+.table { width:100%; border-collapse:collapse; }
+.table th, .table td { padding:10px 8px; border-bottom:1px solid #eee; text-align:left; }
+.msg { color:#d9534f; margin-top:10px; font-size:13px; }
